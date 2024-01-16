@@ -30,7 +30,7 @@ def check_message(message):
     try:
         # Sprawdzanie, czy wiadomoœæ zawiera s³owo 'Dev'
         if 'dev' not in text:
-            warning_message = "If the word 'dev' isn't in your message, it is not allowed here. You can get banned from the dev_bot.You Like or Not this Dev...give him SIMPLE follow"
+            warning_message = "If the word 'dev' isn't in your message, it is not allowed here. You can get banned from the dev_bot."
 
             # Dodawanie przycisku "Follow Twitter"
             keyboard = types.InlineKeyboardMarkup()
