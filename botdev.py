@@ -34,7 +34,7 @@ def check_message(message):
 
             # Dodawanie przycisku "Follow Twitter"
             keyboard = types.InlineKeyboardMarkup()
-            url_button = types.InlineKeyboardButton(text="Follow Twitter", url="https://twitter.com/TWITTER_USERNAME")  # Zastąp 'TWITTER_USERNAME' swoim użytkownikiem na Twitterze
+            url_button = types.InlineKeyboardButton(text="Follow X for $DEV", url="https://twitter.com/@whereisdev_sol")  # Zastąp 'TWITTER_USERNAME' swoim użytkownikiem na Twitterze
             keyboard.add(url_button)
 
             # Wysyłanie wiadomoœci z przyciskiem i dodatkowym tekstem
